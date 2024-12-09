@@ -56,10 +56,12 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "devise", "~> 4.8"
+gem "devise"
 
-gem "chartkick", "~> 4.0", ">= 4.0.2"
+gem "chartkick"
 
-gem "groupdate", "~> 5.2"
+gem "groupdate"
 
-gem "bootstrap", "~> 5.3"
+gem "bootstrap"
+
+gem 'dartsass-rails'
