@@ -55,3 +55,11 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "devise", "~> 4.8"
+
+gem "chartkick", "~> 4.0", ">= 4.0.2"
+
+gem "groupdate", "~> 5.2"
+
+gem "bootstrap", "~> 5.3"
