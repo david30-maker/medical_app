@@ -43,7 +43,7 @@ class PatientsController < ApplicationController
 		end
 
 		def patient_params
-			params.require(:patient).permit(:name, :email, :phone, :address, :registered_at)
+			params.require(:patient).permit(:name, :email, :phone, :address, :registered_at, :status)
 		end
 		
 		def authorize_receptonist
